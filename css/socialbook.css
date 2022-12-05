@@ -577,9 +577,8 @@ main .container .right {
   margin-top: 2rem;
 }
 .customize-theme .choose-bg {
-  display: flex;
-  align-items: center;
-  justify-content: space-between;
+  display:grid;
+  grid-template-columns: repeat(3,1fr);
   gap: 1.5rem;
 }
 .customize-theme .choose-bg > div {
